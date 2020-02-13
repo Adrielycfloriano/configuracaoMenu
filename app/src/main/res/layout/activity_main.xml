@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:editable="false"
+            android:id="@+id/tvConfiguracao"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="Config. \n               🔎️"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+        <Button
+            android:id="@+id/btnconexoes"
+            android:layout_width="369dp"
+            android:layout_height="85dp"
+            android:background="#00EEE7E7"
+            android:drawableLeft="@drawable/wifi_foreground"
+            android:text=" CONEXÕES\nWi-fi, Bluetooth, Uso de dados, Modo offline"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btnsomvibracao"
+            android:layout_width="369dp"
+            android:layout_height="84dp"
+            android:background="#00FFFCFC"
+            android:drawableLeft="@drawable/som_foreground"
+            android:text="Sons e Vibração\nModo de Som, Toque, Volume"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"/>
+
+        <Button
+            android:id="@+id/btnvisor"
+            android:layout_width="369dp"
+            android:layout_height="91dp"
+            android:visibility="gone"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/visor_foreground"
+            android:text="Visor\nBrilho,Filtro de luz azul, Tela inicial"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <Button
+            android:id="@+id/btnnotificacoes"
+            android:layout_width="369dp"
+            android:layout_height="85dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:drawableLeft="@drawable/notificacoes_foreground"
+            android:text="Notificaçãoes\nBloquear, Permitir, Priorizar"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <Button
+            android:id="@+id/btneladeBloqueio"
+            android:drawableLeft="@drawable/bloqueio_foreground"
+            android:layout_width="367dp"
+            android:layout_height="79dp"
+            android:visibility="gone"
+            android:background="#00FFFFFF"
+            android:text="Tela de Bloqueio\nTipo de bloqueio de tela, Estilo de relógio"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <Button
+            android:id="@+id/btnaplicativos"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/aplicativos_foreground"
+            android:text="Aplicativos \nAplicativos padrão, Permissoões de aplicativo"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btncontadordepessoas"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/contador_foreground"
+            android:text="Contador de Pessoas"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+
+        <Button
+            android:id="@+id/btnsquad"
+            android:text="Squad de pagamentos"
+            android:layout_width="363dp"
+            android:background="#00FFFFFF"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</ScrollView>
